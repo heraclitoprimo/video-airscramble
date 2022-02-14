@@ -82,25 +82,15 @@ transition: all 0.3s ease-in-out;
 /* =============================================================
    HOME/VEDIO SECTION STYLES
  ============================================================ */
-#home-sec {
-    height:400px;
-    color:#fff;
-    text-align:center;
-    border-bottom:4px solid #000;
-}
-    #home-sec .overlay {
-        background-color:rgba(0, 0, 0, 0.8);
-        min-height:400px;
-    }
-    #home-sec h1 {
-        padding-top:80px;
-        font-size:50px;
-        font-weight:900;
-        padding-bottom:30px;
-    }
-        #home-sec h1 i {
-            color:#f00;
-        }
+ #video {
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: auto;
+ z-index: -10;
+ visibility: visible;
+ }
 /* =============================================================
    SERVICES SECTION STYLES
  ============================================================ */
